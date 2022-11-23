@@ -1,0 +1,288 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito&display=swap');
+
+/* configuraion de la pagina */
+*{   
+    margin: 1px;
+    padding: 1px;
+     box-sizing: border box;
+
+     font-family: 'Nunito', sans-serif;
+}
+
+/* configuraciones generales */
+a{text-decoration: none;}
+
+ul{
+    list-style: none;
+}
+
+body , html{
+    overflow-x: hidden;
+}
+
+/* fin configuraciones generales */
+
+/* inicio de navbar */
+.navbar{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding: 20px;
+    color: whitesmoke;
+}
+
+.nav-links{
+    display: flex;
+    align-items: center;
+}
+
+.nav-links li{
+    margin: 0 30px;
+
+}
+
+.nav-links a{
+    color: whitesmoke;
+}
+
+.menu-btn{
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 40px;
+    cursor: pointer;
+}
+/* fin de navbar */
+
+/* header y titulos */
+header{
+    width: 100vw;
+    height: 100vh;
+    background-image: url(img/fondo3.jpg);
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    margin-bottom: 150px;
+    color: rgb(41, 34, 34);
+    text-align: center;
+}
+
+.header-content h2{
+    margin-top: 50px;
+    font-size: 4vmin;
+}
+
+.header-content h1{
+    font-size: 6vmin;
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+
+.line{
+    width: 250px;
+    height: 4px;
+    background: #fcbb03;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.ctn{
+    padding: 7px 5px;
+    background: #000000;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 2vmin;
+}
+
+.ctx{
+    padding: 10px 5px;
+    background: #fcbb03;
+    border-radius: 30px;
+    color: whitesmoke;
+    font-size: 3vmin;
+}
+/* fin header y titulos */
+
+/* segunda parte de la pagina */
+.tittle{
+    text-align: center;
+    font-size: 4vmin;
+    color: rgb(98, 73, 126);
+}
+
+.line2{
+    width: 450px;
+    height: 4px;
+    background: #fcbb03;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+.row{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.row .col {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-start;
+}
+
+.events .row{
+    margin-top: 50px;
+}
+
+h4{
+    font-size: 3vmin;
+    color: #484872;
+    margin: 20px auto;
+}
+
+p{
+    color: #fcbb03;
+    padding: 0px 40px;
+}
+
+.ct2{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: #fcbb03;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+.events .ct2{
+    margin-top: 20px;
+}
+
+.img{
+    height: 450px;
+    width: 670px;
+    padding-left: 50px;
+}
+
+/* fin segunda parte de la pagina */
+
+/* tercera parte de la pagina */
+.explore{
+    width: 100%;
+    height: 100vh;
+    background-image: url(./img/fondo7.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+}
+
+.explore-content{
+    width: 60px;
+    padding: 50px;
+    color: whitesmoke;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.explore-content h1{
+    font-size: 7vmin;
+    padding-left: 500px;
+}
+
+.explore-content .line{
+    margin-bottom: 50px;
+    margin-left: 160px;
+}
+
+.explore-content p{
+    color: rgb(255, 255, 255);
+    padding: auto;
+    margin-left: 500px;
+    font-size: 2vmin;
+    background: #1a0b115b;
+
+}
+
+
+.ctn3{
+    padding: 15px;
+    margin-top: 30px;
+    margin-left: 500px;
+    background: #fcbb03;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+section{
+    width: 80%;
+    margin: 80px auto;
+}
+
+/* fin tercera parte de la pagina */
+
+/* cuarta parte de la pagina */
+
+.tours{
+    margin-left: 250px;
+}
+
+.content-col{
+    width: 40%;
+}
+
+.tours .image-gallery{
+    display: flex;
+}
+
+.tours .row .col{
+    width: 50%;
+}
+
+.content-col h1{
+    margin-left: 240px;
+    font-size: 7vmin;
+    color: #484872;
+}
+
+div > div > img{
+    width: 250px;
+    padding: 10px;
+}
+
+.content-col line{
+    border-left: 300px;
+}
+
+
+.ctn4{
+    padding: 15px 5px;
+    padding-left: 5px;
+    margin: 20px auto;
+    background: #fcbb03;
+    border-radius: 30px;
+    color: whitesmoke;
+}
+
+/* fin cuarta parte de la pagina */
+
+/* footer */
+.footer{
+    width: 100%;
+    height: 200px;
+    padding: 20px 80px;
+    margin: 0;
+    background: #480293;
+    text-align: center;
+}
